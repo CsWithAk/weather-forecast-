@@ -1,0 +1,63 @@
+body {
+  background: #0a2f43;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather-container {
+  background: #1c2e4a;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 300px;
+  box-shadow: 0 0 15px #00ffc3;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  background: #00ffc3;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.weather-info img {
+  width: 80px;
+  margin: 10px 0;
+}
+
+#temperature {
+  font-size: 36px;
+  color: #00ffc3;
+}
+
+#city-name {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.extra {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  margin-top: 20px;
+}
